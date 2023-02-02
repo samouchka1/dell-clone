@@ -36,7 +36,7 @@ import {
 
 const Navbar = () => {
   return (
-    <Container maxWidth={false}>
+    <Container maxWidth={false} sx={{pt: '.25rem'}}>
         <Box>
             <Box sx={{display: 'flex', justifyContent: 'space-between'}}>
                 <Box
@@ -44,7 +44,7 @@ const Navbar = () => {
                         display: 'flex',
                         justifyContent: 'space-between',
                         alignItems: 'center',
-                        width: '60%'
+                        width: '58%'
                     }}
                 >
                     <Box>
